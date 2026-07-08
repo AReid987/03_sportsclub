@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page | SuperDesign</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="theme_2.css">
+    <style>
+        body {
+            background-color: var(--background);
+            color: var(--foreground);
+            font-family: var(--font-sans);
+        }
+        .sidebar {
+            transition: transform 0.3s ease-in-out;
+        }
+        .sidebar-hidden {
+            transform: translateX(-100%);
+        }
+    </style>
+</head>
+<body class="bg-background font-sans">
+    <div class="relative min-h-screen flex">
+        <!-- Sidebar -->
+        <aside id="sidebar" class="sidebar sidebar-hidden fixed top-0 left-0 w-64 h-full bg-sidebar text-sidebar-foreground p-4 z-20">
+            <h2 class="text-2xl font-bold mb-4">Dashboard</h2>
+            <nav>
+                <ul>
+                    <li class="mb-2"><a href="#" class="flex items-center p-2 text-base font-normal rounded-lg hover:bg-sidebar-accent"><i data-lucide="home" class="w-5 h-5 mr-3"></i>Home</a></li>
+                    <li class="mb-2"><a href="#" class="flex items-center p-2 text-base font-normal rounded-lg hover:bg-sidebar-accent"><i data-lucide="user" class="w-5 h-5 mr-3"></i>Profile</a></li>
+                    <li class="mb-2"><a href="#" class="flex items-center p-2 text-base font-normal rounded-lg hover:bg-sidebar-accent"><i data-lucide="settings" class="w-5 h-5 mr-3"></i>Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main id="main-content" class="flex-1 transition-all duration-300 ease-in-out">
+            <header class="p-4 border-b border-border flex justify-between items-center">
+                <h1 class="text-xl font-semibold">My Awesome App</h1>
+                <button id="login-button" class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:opacity-90">Login</button>
+                <button id="logout-button" class="hidden bg-destructive text-destructive-foreground px-4 py-2 rounded-md hover:opacity-90">Logout</button>
+            </header>
+            <div class="p-8">
+                <h2 class="text-4xl font-bold mb-4">Welcome to the Landing Page</h2>
+                <p class="text-muted-foreground">This is the main content area. The sidebar is currently hidden. Click the "Login" button to simulate logging in and reveal the sidebar, as you would see on other pages.</p>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        const loginButton = document.getElementById('login-button');
+        const logoutButton = document.getElementById('logout-button');
+        const sidebar = document.getElementById('sidebar');
+        const mainContent = document.getElementById('main-content');
+
+        // This simulates a user logging in
+        loginButton.addEventListener('click', () => {
+            // On other pages, you would check for a login status instead of a click
+            sidebar.classList.remove('sidebar-hidden');
+            mainContent.style.marginLeft = '16rem'; // 64 * 0.25rem = 256px
+            loginButton.classList.add('hidden');
+            logoutButton.classList.remove('hidden');
+        });
+
+        // This simulates a user logging out
+        logoutButton.addEventListener('click', () => {
+            sidebar.classList.add('sidebar-hidden');
+            mainContent.style.marginLeft = '0';
+            loginButton.classList.remove('hidden');
+            logoutButton.classList.add('hidden');
+        });
+    </script>
+</body>
+</html>

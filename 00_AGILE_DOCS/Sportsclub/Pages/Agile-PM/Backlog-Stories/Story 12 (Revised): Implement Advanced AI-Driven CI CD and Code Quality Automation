@@ -1,0 +1,101 @@
+---
+type: Page
+collections: sportsclub backlog
+title: 'Story 1.2 (Revised): Implement Advanced AI-Driven CI/CD and Code Quality Automation'
+description: null
+icon: null
+createdAt: '2025-07-12T09:29:47.516Z'
+creationDate: 2025-07-12 04:29
+modificationDate: null
+tags: [Story]
+coverImage: null
+---
+Story 1.2 (Revised): Implement Advanced AI-Driven CI/CD and Code Quality Automation
+Status: Draft
+Story
+- As a developer,
+- I want to implement a comprehensive, AI-driven CI/CD pipeline with advanced code quality and testing automation in the monorepo,
+- so that code quality is rigorously enforced, development cycles are accelerated through AI-powered autofixing and test generation, and deployments are streamlined and secure.
+Acceptance Criteria (ACs)
+A. Git Hooks & Commit Workflow
+1. lefthook is configured to manage Git hooks in the monorepo.
+2. lint-staged is configured via lefthook to run linters on staged files.
+3. Upon git commit, cz-git is triggered to guide the commit message creation.
+4. The system (AI agent) automatically writes commit messages adhering to Conventional Commits standard with emoji format.
+5. Commitlint is configured via lefthook to validate commit messages against standardization, failing the commit if rules are violated.
+B. Linting & Formatting Automation
+1. Linters (ESLint v9 for JS/TS, Pylint for Python, Biome.js for web projects) are integrated and configured for their respective codebases.
+2. Linting and formatting checks are executed on staged files via lint-staged and lefthook.
+3. For any failing linter runs, the problematic files and relevant line numbers are presented to the developer.
+4. The system (AI agent) automatically fixes detectable linting/formatting issues in the codebase.
+5. The AI agent automatically re-commits the fixed/updated code after autofixing linting/formatting issues.
+C. Unit Testing & Coverage Automation
+1. Unit tests are configured to run automatically after linting/formatting passes.
+2. For any failing unit tests, the failures (file and relevant line numbers) are presented to the developer.
+3. The system (AI agent) automatically fixes problematic code that caused test failures.
+4. The AI agent automatically re-runs only the tests that failed until all passing.
+5. The AI agent automatically re-commits the fixed/updated code after autofixing test failures.
+6. Codecov is integrated to report and enforce test coverage thresholds.
+7. Test coverage is initially set to a minimum of >= 60%, with a target to iterate towards >= 80%.
+8. Insufficient test coverage (below threshold) triggers the system (AI agent) to automatically write the required tests to meet coverage.
+9. The AI agent automatically runs the newly generated tests, autofixes any issues, and re-commits as per previous steps, until coverage is met and tests pass.
+D. Containerization & Image Management
+1. Dockerfiles for relevant microservices are present in their respective package directories.
+2. Upon successful build/test/lint, updated Dockerfiles trigger a rebuild, tagging, and push of new Docker images to a designated Docker Hub repository.
+E. CI/CD Orchestration & Deployment Flow
+1. GitHub Actions workflows are implemented to manage the execution of all defined CI/CD steps (git hooks, linting, testing, containerization).
+2. All applicable actions are configured within package.json scripts (globally or within packages/apps) and integrated into the Turborepo (turbo.json) task graph for efficient execution and caching.
+3. Turborepo remote caching is implemented and configured for efficiency across CI runs.
+4. Upon successful completion of the development CI/CD pipeline (build, test, lint, etc.), an automated push to a staging environment becomes available.
+5. Production branch pushes are restricted, requiring a passing development CI/CD pipeline execution, a passing staging CI/CD pipeline execution, AND a CODEOWNERS signoff.
+6. The Next.js web UI frontend automatically deploys to Vercel upon successful staging pipeline completion.
+7. Backend APIs/Docker containers automatically deploy to Google Cloud (or AWS) upon successful staging pipeline completion.
+8. Database instances (PostgreSQL) are managed via Supabase, Turso, or Neon, as appropriate for each microservice's needs.
+Tasks / Subtasks
+Research and select specific versions/configurations for cz-git, lint-staged, lefthook, Commitlint.
+Configure lefthook to manage Git hooks.
+Configure lint-staged to run linters on staged files.
+Integrate cz-git for commit message generation.
+Implement AI agent logic for autowriting conventional commit messages with emoji format.
+Configure Commitlint for commit message validation.
+Integrate ESLint v9 and Prettier for JS/TS linting/formatting.
+Integrate Pylint for Python linting.
+Integrate Biome.js for web project linting/formatting (as a complementary tool or primary where applicable).
+Implement AI agent logic for autofixing linting/formatting issues.
+Configure unit test execution in CI pipeline.
+Implement AI agent logic for autofixing failing unit tests.
+Integrate Codecov for test coverage reporting.
+Configure initial test coverage threshold (>= 60%).
+Implement AI agent logic for automatically writing missing tests to meet coverage.
+Ensure AI agent re-runs tests until passing after autofixing/generating.
+Create/verify Dockerfiles for initial microservices.
+Configure CI/CD steps for Docker image rebuild, tagging, and push to Docker Hub.
+Implement GitHub Actions workflows for all CI/CD stages.
+Integrate all actions into package.json scripts.
+Configure Turborepo (turbo.json) task graph for efficient execution and caching.
+Implement Turborepo remote caching.
+Configure automated deployment to staging environment upon successful CI.
+Implement production branch protection rules (CI/CD pass, CODEOWNERS signoff).
+Configure Vercel deployment for frontend.
+Configure Google Cloud/AWS/Cloudflare deployment for backend microservices.
+Configure database hosting/management with Supabase, Turso, or Neon for specific services.
+Dev Technical Guidance
+This story is foundational and highly complex, demanding meticulous attention to detail and robust automation. The AI agent's role in autofixing and test generation is a cornerstone of this workflow.
+- Dependency: This story depends on Story 1.1: Establish Project Repositories and Monorepo Structure for the monorepo foundation.
+- AI Agent Integration: The AI agent for this story needs to be capable of interacting with Git commands, linting tools, test runners, and potentially code generation frameworks to perform autofixing and test writing. This will require sophisticated tooling and access.
+- Git Hooks: lefthook is preferred for its speed and flexibility over traditional Git hooks. lint-staged integrates with it.
+- Commit Standards: cz-git and Commitlint enforce Conventional Commits. The AI's autowriting must adhere to these.
+- Linting/Formatting: Configure ESLint v9 with appropriate rules. Biome.js can provide integrated linting/formatting/compilation; consider how it complements or replaces parts of ESLint/Prettier. Pylint for Python.
+- Testing: Ensure unit test runners (e.g., Jest/PyTest) are correctly integrated. The AI's test generation should produce high-quality, passing tests.
+- Code Coverage: Codecov integration for reporting. The AI's test generation must target the specified coverage thresholds.
+- Containerization: Leverage Docker for consistent environments. Define clear image naming and tagging conventions.
+- CI/CD Orchestration: GitHub Actions workflows will orchestrate the entire pipeline. Ensure turbo.json is optimized for parallel task execution and caching.
+- Deployment Targets: Vercel for frontend, chosen cloud provider (AWS/GCP) for backend. Supabase/Turso/Neon for databases (consider "database per service" principle from Architecture Document).
+- Security: Ensure all API keys (e.g., for AI agent access, Docker Hub) are securely managed via secrets. Implement CODEOWNERS for production branch protection. Refer to "Security Best Practices" in the Architecture Document.
+- Error Handling: The pipeline itself should provide clear feedback on failures. AI autofixing should reduce manual debugging.
+Story Progress Notes
+Agent Model Used: Bob (SM Agent)
+Completion Notes List
+- (To be filled by Developer Agent upon completion)
+Change Log
+- (To be filled by Developer Agent upon completion)

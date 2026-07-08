@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "conport": {
+      "name": "conport",
+      "description": "Context Portal MCP server for persistent context management",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "context-portal-mcp",
+        "conport-mcp",
+        "--mode",
+        "stdio",
+        "--workspace_id",
+        "${workspaceFolder}",
+        "--log-file",
+        "./logs/conport.log",
+        "--log-level",
+        "INFO"
+      ],
+      "env": {
+        "WORKSPACE_ID": "/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB"
+      },
+      "enabled": true,
+      "alwaysAllow": {
+        "tools": [
+          "get_product_context",
+          "get_active_context",
+          "get_decisions",
+          "get_progress",
+          "get_system_patterns",
+          "get_custom_data",
+          "get_recent_activity_summary",
+          "store_decision",
+          "store_progress",
+          "store_system_pattern",
+          "store_context",
+          "retrieve_context",
+          "search_context"
+        ],
+        "resources": []
+      },
+      "notes": "Context Portal for maintaining project context across sessions",
+      "timeout": 30
+    }
+  }
+}

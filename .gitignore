@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# BMAD-Roo Integration
+HANDOFF-SUMMARY.md
+.roo/story-queue/
+package.json.backup
+
+# IDE configurations (optional - remove if you want to commit these)
+# .vscode/
+# .windsurf/
+# .roo-code/
+# .cline/
+# .gemini/

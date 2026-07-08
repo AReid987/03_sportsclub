@@ -1,0 +1,134 @@
+2025-07-19 04:21:00,123 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:21:00,124 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:21:00,124 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:21:00,124 - INFO - context_portal_mcp.db.database - Alembic.ini not found. Creating at /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/alembic.ini
+2025-07-19 04:21:00,124 - INFO - context_portal_mcp.db.database - Alembic env.py not found. Creating at /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/alembic/env.py
+2025-07-19 04:21:00,124 - INFO - context_portal_mcp.db.database - Initial schema not found. Creating at /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/alembic/versions/2025_06_17_initial_schema.py
+2025-07-19 04:21:00,124 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:21:00,146 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:21:00,162 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:21:00,175 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:21:00,176 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:21:16,134 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:21:16,134 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:21:16,134 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:21:16,134 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:21:16,143 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:21:16,146 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:21:16,153 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:21:16,154 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:21:21,426 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:21:30,875 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:21:30,887 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:21:30,892 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:21:30,895 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:21:31,135 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:21:31,140 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:21:31,144 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:21:31,146 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:21:40,492 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:21:50,700 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:21:50,700 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:21:50,700 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:21:50,700 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:21:50,712 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:21:50,720 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:21:50,725 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:21:50,728 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:21:59,998 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:22:08,853 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:22:08,853 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:22:08,853 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:22:08,853 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:22:08,862 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:22:08,868 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:22:08,873 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:22:08,874 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:22:20,844 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:22:44,967 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:22:44,967 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:22:44,967 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:22:44,968 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:22:44,981 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:22:45,002 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:22:45,255 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:22:45,262 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:22:55,794 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:23:51,568 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:23:51,568 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:23:51,568 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:23:51,569 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:23:51,583 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:23:51,612 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:23:51,622 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:23:51,624 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:35:16,169 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:35:26,385 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:35:26,385 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:35:26,385 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:35:26,385 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:35:26,395 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:35:26,402 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:35:26,410 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:35:26,413 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:35:32,610 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:35:54,242 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:35:54,242 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:35:54,242 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:35:54,242 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:35:54,268 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:35:54,274 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:35:54,282 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:35:54,285 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:35:59,667 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:36:10,005 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:36:10,006 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:36:10,006 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:36:10,006 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:36:10,016 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:36:10,021 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:36:10,027 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:36:10,030 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:36:54,325 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:37:03,091 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:37:03,091 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:37:03,091 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:37:03,091 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:37:03,102 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:37:03,105 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:37:03,110 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:37:03,111 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 04:37:46,526 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:52:02,320 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 04:52:02,320 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 04:52:02,320 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 04:52:02,320 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 04:52:02,330 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 04:52:02,340 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 04:52:02,371 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 04:52:02,373 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 05:01:56,914 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-19 05:01:56,914 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-19 05:01:56,914 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-19 05:01:56,915 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-19 05:01:56,957 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-19 05:01:57,502 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-19 05:01:59,691 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-19 05:01:59,938 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-19 22:08:37,426 - INFO - mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-07-19 22:08:37,518 - ERROR - context_portal_mcp.db.database - Alembic: CRITICAL - Script directory /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/sportsclub-v1.0.0/context_portal/alembic does NOT exist according to Python!
+2025-07-19 22:08:37,519 - ERROR - context_portal_mcp.main - Error in update_product_context handler: Database error updating product context: Alembic scripts directory not found: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/sportsclub-v1.0.0/context_portal/alembic
+2025-07-20 05:44:13,004 - INFO - mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-07-20 05:44:13,335 - INFO - context_portal_mcp.db.database - Alembic: Script directory /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/alembic confirmed to exist by Python.
+2025-07-20 05:44:13,335 - INFO - context_portal_mcp.db.database - Running Alembic migrations for database: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/context.db
+2025-07-21 18:22:54,489 - INFO - context_portal_mcp.main - File logging configured to: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/context_portal/./logs/conport.log
+2025-07-21 18:22:54,490 - INFO - context_portal_mcp.main - Parsed CLI args: Namespace(host='127.0.0.1', port=8000, workspace_id='/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB', mode='stdio', log_file='./logs/conport.log', log_level='INFO')
+2025-07-21 18:22:54,490 - INFO - context_portal_mcp.main - Starting ConPort in STDIO mode using FastMCP for initial CLI arg workspace_id: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB
+2025-07-21 18:22:54,490 - INFO - context_portal_mcp.main - STDIO mode: Using effective_workspace_id '/Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB'. Database directory will be created on first actual DB use.
+2025-07-21 18:22:54,552 - INFO - context_portal_mcp.main - ConPort FastMCP server lifespan starting.
+2025-07-21 18:22:54,567 - INFO - mcp.server.lowlevel.server - Processing request of type ListToolsRequest
+2025-07-21 18:22:54,585 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourcesRequest
+2025-07-21 18:22:54,650 - INFO - mcp.server.lowlevel.server - Processing request of type ListResourceTemplatesRequest
+2025-07-21 18:33:23,531 - INFO - mcp.server.lowlevel.server - Processing request of type CallToolRequest
+2025-07-21 18:33:24,166 - INFO - context_portal_mcp.db.database - Alembic: Script directory /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/sportsclub-v1.0.0/context_portal/alembic confirmed to exist by Python.
+2025-07-21 18:33:24,168 - INFO - context_portal_mcp.db.database - Running Alembic migrations for database: /Users/antonioreid/CODE/00_PROJECTS/00_APPS/00_SPORTSCLUB/sportsclub-v1.0.0/context_portal/context.db

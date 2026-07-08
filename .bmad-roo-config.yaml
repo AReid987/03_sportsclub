@@ -1,0 +1,28 @@
+# BMAD + Roo Commander Integration Configuration
+integration:
+  enabled: true
+  handoff_trigger: "planning_complete"
+  selected_ides: ""
+  
+bmad:
+  docs_path: "docs/"
+  stories_path: "docs/stories/"
+  journal_path: "project_journal/"
+  
+roo:
+  workspace_path: ".roo/"
+  modes_path: ".ruru/"
+  story_queue_path: ".roo/story-queue/"
+  
+handoff:
+  auto_trigger: true
+  validation_required: true
+  artifacts_check:
+    - "docs/project-brief.md"
+    - "docs/prd.md" 
+    - "docs/architecture.md"
+    - "docs/stories/"
+
+ide_setup:
+  expansion_packs: read -p "Create sample project structure? (y/n): " create_samples
+  sample_structure: 
